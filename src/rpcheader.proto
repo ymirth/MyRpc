@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+
+// The request message containing the user's name.
+package rpcheader;
+
+message rpcheader
+{
+    bytes  service_name=1;
+    bytes  method_name=2;
+    uint32 request_size=3;
+}
+
