@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/logger.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/logger.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/logger.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/rpcchannel.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/rpcconfig.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/rpccontroller.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/rpcprovider.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/src",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpc.dir/zookeeperutil.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpcclient.dir/client/rpcclient.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpcclient.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpcservice.dir/service/rpcservice.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp"
+},
+{
+  "directory": "/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++  -I/home/ymirth/study/cpp_code/linux_learning/Rpc/include -I/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos -g -std=gnu++17 -o CMakeFiles/myrpcservice.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc",
+  "file": "/home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc"
+}
+]

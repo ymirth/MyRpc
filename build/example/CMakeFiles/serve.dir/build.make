@@ -73,29 +73,29 @@ example/CMakeFiles/serve.dir/service/rpcservice.cpp.o: example/CMakeFiles/serve.
 example/CMakeFiles/serve.dir/service/rpcservice.cpp.o: ../example/service/rpcservice.cpp
 example/CMakeFiles/serve.dir/service/rpcservice.cpp.o: example/CMakeFiles/serve.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/serve.dir/service/rpcservice.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/serve.dir/service/rpcservice.cpp.o -MF CMakeFiles/serve.dir/service/rpcservice.cpp.o.d -o CMakeFiles/serve.dir/service/rpcservice.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/serve.dir/service/rpcservice.cpp.o -MF CMakeFiles/serve.dir/service/rpcservice.cpp.o.d -o CMakeFiles/serve.dir/service/rpcservice.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp
 
 example/CMakeFiles/serve.dir/service/rpcservice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serve.dir/service/rpcservice.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp > CMakeFiles/serve.dir/service/rpcservice.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp > CMakeFiles/serve.dir/service/rpcservice.cpp.i
 
 example/CMakeFiles/serve.dir/service/rpcservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serve.dir/service/rpcservice.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp -o CMakeFiles/serve.dir/service/rpcservice.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/service/rpcservice.cpp -o CMakeFiles/serve.dir/service/rpcservice.cpp.s
 
 example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o: example/CMakeFiles/serve.dir/flags.make
 example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o: ../example/protos/example.service.pb.cc
 example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o: example/CMakeFiles/serve.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o -MF CMakeFiles/serve.dir/protos/example.service.pb.cc.o.d -o CMakeFiles/serve.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o -MF CMakeFiles/serve.dir/protos/example.service.pb.cc.o.d -o CMakeFiles/serve.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc
 
 example/CMakeFiles/serve.dir/protos/example.service.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serve.dir/protos/example.service.pb.cc.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc > CMakeFiles/serve.dir/protos/example.service.pb.cc.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc > CMakeFiles/serve.dir/protos/example.service.pb.cc.i
 
 example/CMakeFiles/serve.dir/protos/example.service.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serve.dir/protos/example.service.pb.cc.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc -o CMakeFiles/serve.dir/protos/example.service.pb.cc.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc -o CMakeFiles/serve.dir/protos/example.service.pb.cc.s
 
 # Object files for target serve
 serve_OBJECTS = \

@@ -117,39 +117,39 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-example/CMakeFiles/client.dir/rule:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/client.dir/rule
-.PHONY : example/CMakeFiles/client.dir/rule
+example/CMakeFiles/myrpcclient.dir/rule:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/myrpcclient.dir/rule
+.PHONY : example/CMakeFiles/myrpcclient.dir/rule
 
 # Convenience name for target.
-client: example/CMakeFiles/client.dir/rule
-.PHONY : client
+myrpcclient: example/CMakeFiles/myrpcclient.dir/rule
+.PHONY : myrpcclient
 
 # fast build rule for target.
-client/fast:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/build
-.PHONY : client/fast
+myrpcclient/fast:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/build
+.PHONY : myrpcclient/fast
 
 # Convenience name for target.
-example/CMakeFiles/serve.dir/rule:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/serve.dir/rule
-.PHONY : example/CMakeFiles/serve.dir/rule
+example/CMakeFiles/myrpcservice.dir/rule:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/myrpcservice.dir/rule
+.PHONY : example/CMakeFiles/myrpcservice.dir/rule
 
 # Convenience name for target.
-serve: example/CMakeFiles/serve.dir/rule
-.PHONY : serve
+myrpcservice: example/CMakeFiles/myrpcservice.dir/rule
+.PHONY : myrpcservice
 
 # fast build rule for target.
-serve/fast:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/build
-.PHONY : serve/fast
+myrpcservice/fast:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/build
+.PHONY : myrpcservice/fast
 
 client/rpcclient.o: client/rpcclient.cpp.o
 .PHONY : client/rpcclient.o
 
 # target to build an object file
 client/rpcclient.cpp.o:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/client/rpcclient.cpp.o
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/client/rpcclient.cpp.o
 .PHONY : client/rpcclient.cpp.o
 
 client/rpcclient.i: client/rpcclient.cpp.i
@@ -157,7 +157,7 @@ client/rpcclient.i: client/rpcclient.cpp.i
 
 # target to preprocess a source file
 client/rpcclient.cpp.i:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/client/rpcclient.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/client/rpcclient.cpp.i
 .PHONY : client/rpcclient.cpp.i
 
 client/rpcclient.s: client/rpcclient.cpp.s
@@ -165,7 +165,7 @@ client/rpcclient.s: client/rpcclient.cpp.s
 
 # target to generate assembly for a file
 client/rpcclient.cpp.s:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/client/rpcclient.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/client/rpcclient.cpp.s
 .PHONY : client/rpcclient.cpp.s
 
 protos/example.service.pb.o: protos/example.service.pb.cc.o
@@ -173,8 +173,8 @@ protos/example.service.pb.o: protos/example.service.pb.cc.o
 
 # target to build an object file
 protos/example.service.pb.cc.o:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/protos/example.service.pb.cc.o
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/protos/example.service.pb.cc.o
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/protos/example.service.pb.cc.o
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/protos/example.service.pb.cc.o
 .PHONY : protos/example.service.pb.cc.o
 
 protos/example.service.pb.i: protos/example.service.pb.cc.i
@@ -182,8 +182,8 @@ protos/example.service.pb.i: protos/example.service.pb.cc.i
 
 # target to preprocess a source file
 protos/example.service.pb.cc.i:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/protos/example.service.pb.cc.i
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/protos/example.service.pb.cc.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/protos/example.service.pb.cc.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/protos/example.service.pb.cc.i
 .PHONY : protos/example.service.pb.cc.i
 
 protos/example.service.pb.s: protos/example.service.pb.cc.s
@@ -191,8 +191,8 @@ protos/example.service.pb.s: protos/example.service.pb.cc.s
 
 # target to generate assembly for a file
 protos/example.service.pb.cc.s:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/protos/example.service.pb.cc.s
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/protos/example.service.pb.cc.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/protos/example.service.pb.cc.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/protos/example.service.pb.cc.s
 .PHONY : protos/example.service.pb.cc.s
 
 service/rpcservice.o: service/rpcservice.cpp.o
@@ -200,7 +200,7 @@ service/rpcservice.o: service/rpcservice.cpp.o
 
 # target to build an object file
 service/rpcservice.cpp.o:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/service/rpcservice.cpp.o
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/service/rpcservice.cpp.o
 .PHONY : service/rpcservice.cpp.o
 
 service/rpcservice.i: service/rpcservice.cpp.i
@@ -208,7 +208,7 @@ service/rpcservice.i: service/rpcservice.cpp.i
 
 # target to preprocess a source file
 service/rpcservice.cpp.i:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/service/rpcservice.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/service/rpcservice.cpp.i
 .PHONY : service/rpcservice.cpp.i
 
 service/rpcservice.s: service/rpcservice.cpp.s
@@ -216,7 +216,7 @@ service/rpcservice.s: service/rpcservice.cpp.s
 
 # target to generate assembly for a file
 service/rpcservice.cpp.s:
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/service/rpcservice.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/service/rpcservice.cpp.s
 .PHONY : service/rpcservice.cpp.s
 
 # Help Target
@@ -227,8 +227,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... client"
-	@echo "... serve"
+	@echo "... myrpcclient"
+	@echo "... myrpcservice"
 	@echo "... client/rpcclient.o"
 	@echo "... client/rpcclient.i"
 	@echo "... client/rpcclient.s"

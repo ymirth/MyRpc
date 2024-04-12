@@ -1,2 +1,2 @@
-/opt/rh/devtoolset-9/root/usr/bin/ar qc ../../lib/libmyrpc.a CMakeFiles/myrpc.dir/rpcchannel.cpp.o CMakeFiles/myrpc.dir/rpcconfig.cpp.o CMakeFiles/myrpc.dir/rpccontroller.cpp.o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o CMakeFiles/myrpc.dir/rpcprovider.cpp.o CMakeFiles/myrpc.dir/zookeeperutil.cpp.o
+/opt/rh/devtoolset-9/root/usr/bin/ar qc ../../lib/libmyrpc.a CMakeFiles/myrpc.dir/logger.cpp.o CMakeFiles/myrpc.dir/rpcchannel.cpp.o CMakeFiles/myrpc.dir/rpcconfig.cpp.o CMakeFiles/myrpc.dir/rpccontroller.cpp.o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o CMakeFiles/myrpc.dir/rpcprovider.cpp.o CMakeFiles/myrpc.dir/zookeeperutil.cpp.o
 /opt/rh/devtoolset-9/root/usr/bin/ranlib ../../lib/libmyrpc.a

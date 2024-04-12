@@ -6,12 +6,10 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-
-#include <muduo/base/Logging.h>
-
 #include"rpcchannel.h"
 #include"rpcapplication.h"
 #include"zookeeperutil.h"
+#include"logger.h"
 
 #include"rpcheader.pb.h"
 
@@ -23,7 +21,7 @@ static std::string generate_request_data(const google::protobuf::MethodDescripto
     //1. 序列化请求
     std::string request_str;
     if(!request->SerializeToString(&request_str)){
-        LOG_ERROR << "serialize request message failed\n";
+        LOG_ERROR("serialize request message failed\n");
         return "";
     }
 
@@ -35,7 +33,7 @@ static std::string generate_request_data(const google::protobuf::MethodDescripto
 
     std::string header_str;
     if(!rpc_header.SerializeToString(&header_str)){
-        LOG_ERROR << "serialize rpc header failed\n";
+        LOG_ERROR("serialize header message failed\n");
         return "";
     }
 
@@ -58,7 +56,7 @@ static void host_from_zk(const std::string &method_path, std::string& host, uint
     // 解析host_data
     size_t pos = host_data.find(":");
     if(pos == std::string::npos){
-        LOG_ERROR << "host_data format error\n";
+        LOG_ERROR("host_data format error\n");
     }
     host = host_data.substr(0, pos);
     port = static_cast<uint16_t>(std::stoi(host_data.substr(pos + 1)));
@@ -82,7 +80,7 @@ void CustomRpcChannel::CallMethod(const google::protobuf::MethodDescriptor * met
     // 建立连接
     int client_fd = socket(AF_INET, SOCK_STREAM, 0);
     if(client_fd == -1){
-        LOG_ERROR << "create socket failed\n";
+        LOG_ERROR("create socket failed\n");
         return;
     }
     
@@ -92,13 +90,13 @@ void CustomRpcChannel::CallMethod(const google::protobuf::MethodDescriptor * met
     server_addr.sin_addr.s_addr = inet_addr(host.c_str());
 
     if(connect(client_fd, (struct sockaddr*)&server_addr, sizeof(server_addr)) == -1){
-        LOG_ERROR << "connect server failed\n";
+        LOG_ERROR("connect server failed\n");
         return;
     }
 
     // 发送rpc_request
     if(send(client_fd, send_str.c_str(), send_str.size(), 0) == -1){
-        LOG_ERROR << "send data failed\n";
+        LOG_ERROR("send data failed\n");
         return;
     }
 
@@ -106,14 +104,14 @@ void CustomRpcChannel::CallMethod(const google::protobuf::MethodDescriptor * met
     char recv_buf[1024] = {0};  // 不用std::string, 防止/0截断
     int recv_size = recv(client_fd, recv_buf, 1024, 0);
     if(recv_size == -1){
-        LOG_ERROR << "recv data failed\n";
+        LOG_ERROR("recv data failed\n");
         ::close(client_fd);
         return;
     }
 
     // 反序列化rpc_response
     if(!response->ParseFromArray(recv_buf, recv_size)){
-        LOG_ERROR << "parse response message failed\n";
+        LOG_ERROR("parse response message failed\n");
         ::close(client_fd);
         return;
     }

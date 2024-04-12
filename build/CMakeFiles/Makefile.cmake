@@ -48,6 +48,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/myrpc.dir/DependInfo.cmake"
-  "example/CMakeFiles/client.dir/DependInfo.cmake"
-  "example/CMakeFiles/serve.dir/DependInfo.cmake"
+  "example/CMakeFiles/myrpcclient.dir/DependInfo.cmake"
+  "example/CMakeFiles/myrpcservice.dir/DependInfo.cmake"
   )

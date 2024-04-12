@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/opt/rh/devtoolset-9/root/usr/bin/cc")
+set(CMAKE_C_COMPILER "/opt/rh/devtoolset-9/root/usr/bin/gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "9.3.1")

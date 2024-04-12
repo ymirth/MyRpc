@@ -81,8 +81,8 @@ clean: example/clean
 # Directory level rules for directory example
 
 # Recursive "all" directory target.
-example/all: example/CMakeFiles/client.dir/all
-example/all: example/CMakeFiles/serve.dir/all
+example/all: example/CMakeFiles/myrpcclient.dir/all
+example/all: example/CMakeFiles/myrpcservice.dir/all
 .PHONY : example/all
 
 # Recursive "preinstall" directory target.
@@ -90,8 +90,8 @@ example/preinstall:
 .PHONY : example/preinstall
 
 # Recursive "clean" directory target.
-example/clean: example/CMakeFiles/client.dir/clean
-example/clean: example/CMakeFiles/serve.dir/clean
+example/clean: example/CMakeFiles/myrpcclient.dir/clean
+example/clean: example/CMakeFiles/myrpcservice.dir/clean
 .PHONY : example/clean
 
 #=============================================================================
@@ -116,12 +116,12 @@ src/clean: src/CMakeFiles/myrpc.dir/clean
 src/CMakeFiles/myrpc.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=4,5,6,7,8,9,10 "Built target myrpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target myrpc"
 .PHONY : src/CMakeFiles/myrpc.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/myrpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/myrpc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/myrpc.dir/rule
@@ -136,56 +136,56 @@ src/CMakeFiles/myrpc.dir/clean:
 .PHONY : src/CMakeFiles/myrpc.dir/clean
 
 #=============================================================================
-# Target rules for target example/CMakeFiles/client.dir
+# Target rules for target example/CMakeFiles/myrpcclient.dir
 
 # All Build rule for target.
-example/CMakeFiles/client.dir/all: src/CMakeFiles/myrpc.dir/all
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/depend
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=1,2,3 "Built target client"
-.PHONY : example/CMakeFiles/client.dir/all
+example/CMakeFiles/myrpcclient.dir/all: src/CMakeFiles/myrpc.dir/all
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/depend
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=9,10,11 "Built target myrpcclient"
+.PHONY : example/CMakeFiles/myrpcclient.dir/all
 
 # Build rule for subdir invocation for target.
-example/CMakeFiles/client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/client.dir/all
+example/CMakeFiles/myrpcclient.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/myrpcclient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 0
-.PHONY : example/CMakeFiles/client.dir/rule
+.PHONY : example/CMakeFiles/myrpcclient.dir/rule
 
 # Convenience name for target.
-client: example/CMakeFiles/client.dir/rule
-.PHONY : client
+myrpcclient: example/CMakeFiles/myrpcclient.dir/rule
+.PHONY : myrpcclient
 
 # clean rule for target.
-example/CMakeFiles/client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/clean
-.PHONY : example/CMakeFiles/client.dir/clean
+example/CMakeFiles/myrpcclient.dir/clean:
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/clean
+.PHONY : example/CMakeFiles/myrpcclient.dir/clean
 
 #=============================================================================
-# Target rules for target example/CMakeFiles/serve.dir
+# Target rules for target example/CMakeFiles/myrpcservice.dir
 
 # All Build rule for target.
-example/CMakeFiles/serve.dir/all: src/CMakeFiles/myrpc.dir/all
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/depend
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=11,12,13 "Built target serve"
-.PHONY : example/CMakeFiles/serve.dir/all
+example/CMakeFiles/myrpcservice.dir/all: src/CMakeFiles/myrpc.dir/all
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/depend
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=12,13,14 "Built target myrpcservice"
+.PHONY : example/CMakeFiles/myrpcservice.dir/all
 
 # Build rule for subdir invocation for target.
-example/CMakeFiles/serve.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 10
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/serve.dir/all
+example/CMakeFiles/myrpcservice.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/myrpcservice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles 0
-.PHONY : example/CMakeFiles/serve.dir/rule
+.PHONY : example/CMakeFiles/myrpcservice.dir/rule
 
 # Convenience name for target.
-serve: example/CMakeFiles/serve.dir/rule
-.PHONY : serve
+myrpcservice: example/CMakeFiles/myrpcservice.dir/rule
+.PHONY : myrpcservice
 
 # clean rule for target.
-example/CMakeFiles/serve.dir/clean:
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/clean
-.PHONY : example/CMakeFiles/serve.dir/clean
+example/CMakeFiles/myrpcservice.dir/clean:
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/clean
+.PHONY : example/CMakeFiles/myrpcservice.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

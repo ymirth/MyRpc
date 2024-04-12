@@ -134,24 +134,34 @@ src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: \
  /usr/include/netinet/in.h /usr/include/bits/in.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/getopt.h \
- /usr/include/muduo/base/Logging.h /usr/include/muduo/base/LogStream.h \
- /usr/include/muduo/base/noncopyable.h \
- /usr/include/muduo/base/StringPiece.h /usr/include/string.h \
- /usr/include/muduo/base/Types.h /usr/include/assert.h \
- /usr/include/muduo/base/Timestamp.h /usr/include/muduo/base/copyable.h \
- /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
- /usr/include/boost/config/user.hpp \
- /usr/include/boost/config/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp \
- /usr/include/boost/config/select_stdlib_config.hpp \
+ /home/ymirth/study/cpp_code/linux_learning/Rpc/include/rpcchannel.h \
+ /usr/local/include/google/protobuf/service.h \
+ /usr/local/include/google/protobuf/stubs/callback.h \
+ /usr/local/include/google/protobuf/stubs/macros.h \
+ /usr/local/include/google/protobuf/stubs/port.h /usr/include/assert.h \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/stdlib.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/cstddef \
- /usr/include/boost/config/no_tr1/utility.hpp \
- /usr/include/boost/config/stdlib/libstdcpp3.hpp \
- /usr/include/boost/config/select_platform_config.hpp \
- /usr/include/boost/config/platform/linux.hpp \
- /usr/include/boost/config/posix_features.hpp \
- /usr/include/boost/config/suffix.hpp /usr/include/boost/iterator.hpp \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/iterator \
+ /usr/include/string.h \
+ /usr/local/include/google/protobuf/stubs/platform_macros.h \
+ /usr/local/include/google/protobuf/port_def.inc /usr/include/sys/param.h \
+ /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/limits.h \
+ /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/param.h /usr/include/linux/param.h \
+ /usr/include/asm/param.h /usr/include/asm-generic/param.h \
+ /usr/include/byteswap.h \
+ /usr/local/include/google/protobuf/port_undef.inc \
+ /usr/local/include/google/protobuf/stubs/common.h \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/algorithm \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/pstl/glue_algorithm_defs.h \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/pstl/execution_defs.h \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/iostream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/ostream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/ios \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/ios_base.h \
@@ -173,34 +183,6 @@ src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/ostream.tcc \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/istream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/istream.tcc \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stream_iterator.h \
- /usr/include/boost/detail/workaround.hpp \
- /home/ymirth/study/cpp_code/linux_learning/Rpc/include/rpcchannel.h \
- /usr/local/include/google/protobuf/service.h \
- /usr/local/include/google/protobuf/stubs/callback.h \
- /usr/local/include/google/protobuf/stubs/macros.h \
- /usr/local/include/google/protobuf/stubs/port.h \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/stdlib.h \
- /usr/local/include/google/protobuf/stubs/platform_macros.h \
- /usr/local/include/google/protobuf/port_def.inc /usr/include/sys/param.h \
- /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/limits.h \
- /opt/rh/devtoolset-9/root/usr/lib/gcc/x86_64-redhat-linux/9/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/signal.h /usr/include/bits/signum.h \
- /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
- /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
- /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
- /usr/include/bits/param.h /usr/include/linux/param.h \
- /usr/include/asm/param.h /usr/include/asm-generic/param.h \
- /usr/include/byteswap.h \
- /usr/local/include/google/protobuf/port_undef.inc \
- /usr/local/include/google/protobuf/stubs/common.h \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/algorithm \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/pstl/glue_algorithm_defs.h \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/pstl/execution_defs.h \
- /opt/rh/devtoolset-9/root/usr/include/c++/9/iostream \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/map \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_tree.h \
  /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stl_map.h \
@@ -256,6 +238,8 @@ src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: \
  /usr/local/include/google/protobuf/arenastring.h \
  /usr/local/include/google/protobuf/implicit_weak_message.h \
  /usr/local/include/google/protobuf/repeated_field.h \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/iterator \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/stream_iterator.h \
  /usr/local/include/google/protobuf/wire_format_lite.h \
  /usr/local/include/google/protobuf/io/zero_copy_stream_impl_lite.h \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
@@ -328,6 +312,12 @@ src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: \
  /usr/local/include/zookeeper/zookeeper_version.h \
  /usr/local/include/zookeeper/recordio.h \
  /usr/local/include/zookeeper/zookeeper.jute.h \
+ /home/ymirth/study/cpp_code/linux_learning/Rpc/include/logger.h \
+ /home/ymirth/study/cpp_code/linux_learning/Rpc/include/circularqueue.hpp \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/future \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/thread \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/condition_variable \
+ /opt/rh/devtoolset-9/root/usr/include/c++/9/bits/atomic_futex.h \
  /home/ymirth/study/cpp_code/linux_learning/Rpc/include/rpcheader.pb.h \
  /usr/local/include/google/protobuf/generated_message_table_driven.h \
  /usr/local/include/google/protobuf/map.h \

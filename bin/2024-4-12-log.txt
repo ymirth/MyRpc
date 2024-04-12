@@ -1,0 +1,4 @@
+12:47:50 =>[info] register service: example.UserRpcService method: Register at: /example.UserRpcService/Register
+12:47:50 =>[info] register service: example.UserRpcService method: Login at: /example.UserRpcService/Login
+13:9:17 =>[info] register service: example.UserRpcService method: Register at: /example.UserRpcService/Register
+13:9:17 =>[info] register service: example.UserRpcService method: Login at: /example.UserRpcService/Login

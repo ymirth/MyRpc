@@ -130,30 +130,30 @@ myrpc/fast:
 .PHONY : myrpc/fast
 
 #=============================================================================
-# Target rules for targets named client
+# Target rules for targets named myrpcclient
 
 # Build rule for target.
-client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
-.PHONY : client
+myrpcclient: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myrpcclient
+.PHONY : myrpcclient
 
 # fast build rule for target.
-client/fast:
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/client.dir/build.make example/CMakeFiles/client.dir/build
-.PHONY : client/fast
+myrpcclient/fast:
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcclient.dir/build.make example/CMakeFiles/myrpcclient.dir/build
+.PHONY : myrpcclient/fast
 
 #=============================================================================
-# Target rules for targets named serve
+# Target rules for targets named myrpcservice
 
 # Build rule for target.
-serve: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serve
-.PHONY : serve
+myrpcservice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 myrpcservice
+.PHONY : myrpcservice
 
 # fast build rule for target.
-serve/fast:
-	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/serve.dir/build.make example/CMakeFiles/serve.dir/build
-.PHONY : serve/fast
+myrpcservice/fast:
+	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/myrpcservice.dir/build.make example/CMakeFiles/myrpcservice.dir/build
+.PHONY : myrpcservice/fast
 
 # Help Target
 help:
@@ -163,9 +163,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... client"
 	@echo "... myrpc"
-	@echo "... serve"
+	@echo "... myrpcclient"
+	@echo "... myrpcservice"
 .PHONY : help
 
 

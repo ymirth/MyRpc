@@ -69,92 +69,107 @@ include src/CMakeFiles/myrpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/myrpc.dir/flags.make
 
+src/CMakeFiles/myrpc.dir/logger.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
+src/CMakeFiles/myrpc.dir/logger.cpp.o: ../src/logger.cpp
+src/CMakeFiles/myrpc.dir/logger.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/myrpc.dir/logger.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/logger.cpp.o -MF CMakeFiles/myrpc.dir/logger.cpp.o.d -o CMakeFiles/myrpc.dir/logger.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/logger.cpp
+
+src/CMakeFiles/myrpc.dir/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/logger.cpp.i"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/logger.cpp > CMakeFiles/myrpc.dir/logger.cpp.i
+
+src/CMakeFiles/myrpc.dir/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/logger.cpp.s"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/logger.cpp -o CMakeFiles/myrpc.dir/logger.cpp.s
+
 src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: ../src/rpcchannel.cpp
 src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o -MF CMakeFiles/myrpc.dir/rpcchannel.cpp.o.d -o CMakeFiles/myrpc.dir/rpcchannel.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o -MF CMakeFiles/myrpc.dir/rpcchannel.cpp.o.d -o CMakeFiles/myrpc.dir/rpcchannel.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp
 
 src/CMakeFiles/myrpc.dir/rpcchannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/rpcchannel.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp > CMakeFiles/myrpc.dir/rpcchannel.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp > CMakeFiles/myrpc.dir/rpcchannel.cpp.i
 
 src/CMakeFiles/myrpc.dir/rpcchannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/rpcchannel.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp -o CMakeFiles/myrpc.dir/rpcchannel.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcchannel.cpp -o CMakeFiles/myrpc.dir/rpcchannel.cpp.s
 
 src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o: ../src/rpcconfig.cpp
 src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o -MF CMakeFiles/myrpc.dir/rpcconfig.cpp.o.d -o CMakeFiles/myrpc.dir/rpcconfig.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o -MF CMakeFiles/myrpc.dir/rpcconfig.cpp.o.d -o CMakeFiles/myrpc.dir/rpcconfig.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp
 
 src/CMakeFiles/myrpc.dir/rpcconfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/rpcconfig.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp > CMakeFiles/myrpc.dir/rpcconfig.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp > CMakeFiles/myrpc.dir/rpcconfig.cpp.i
 
 src/CMakeFiles/myrpc.dir/rpcconfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/rpcconfig.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp -o CMakeFiles/myrpc.dir/rpcconfig.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcconfig.cpp -o CMakeFiles/myrpc.dir/rpcconfig.cpp.s
 
 src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o: ../src/rpccontroller.cpp
 src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o -MF CMakeFiles/myrpc.dir/rpccontroller.cpp.o.d -o CMakeFiles/myrpc.dir/rpccontroller.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o -MF CMakeFiles/myrpc.dir/rpccontroller.cpp.o.d -o CMakeFiles/myrpc.dir/rpccontroller.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp
 
 src/CMakeFiles/myrpc.dir/rpccontroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/rpccontroller.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp > CMakeFiles/myrpc.dir/rpccontroller.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp > CMakeFiles/myrpc.dir/rpccontroller.cpp.i
 
 src/CMakeFiles/myrpc.dir/rpccontroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/rpccontroller.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp -o CMakeFiles/myrpc.dir/rpccontroller.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpccontroller.cpp -o CMakeFiles/myrpc.dir/rpccontroller.cpp.s
 
 src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o: ../src/rpcheader.pb.cc
 src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/myrpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/myrpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc
 
 src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/rpcheader.pb.cc.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc > CMakeFiles/myrpc.dir/rpcheader.pb.cc.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc > CMakeFiles/myrpc.dir/rpcheader.pb.cc.i
 
 src/CMakeFiles/myrpc.dir/rpcheader.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/rpcheader.pb.cc.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcheader.pb.cc -o CMakeFiles/myrpc.dir/rpcheader.pb.cc.s
 
 src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o: ../src/rpcprovider.cpp
 src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o -MF CMakeFiles/myrpc.dir/rpcprovider.cpp.o.d -o CMakeFiles/myrpc.dir/rpcprovider.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/rpcprovider.cpp.o -MF CMakeFiles/myrpc.dir/rpcprovider.cpp.o.d -o CMakeFiles/myrpc.dir/rpcprovider.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp
 
 src/CMakeFiles/myrpc.dir/rpcprovider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/rpcprovider.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp > CMakeFiles/myrpc.dir/rpcprovider.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp > CMakeFiles/myrpc.dir/rpcprovider.cpp.i
 
 src/CMakeFiles/myrpc.dir/rpcprovider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/rpcprovider.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp -o CMakeFiles/myrpc.dir/rpcprovider.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/rpcprovider.cpp -o CMakeFiles/myrpc.dir/rpcprovider.cpp.s
 
 src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o: src/CMakeFiles/myrpc.dir/flags.make
 src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o: ../src/zookeeperutil.cpp
 src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o: src/CMakeFiles/myrpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o -MF CMakeFiles/myrpc.dir/zookeeperutil.cpp.o.d -o CMakeFiles/myrpc.dir/zookeeperutil.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o"
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o -MF CMakeFiles/myrpc.dir/zookeeperutil.cpp.o.d -o CMakeFiles/myrpc.dir/zookeeperutil.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp
 
 src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myrpc.dir/zookeeperutil.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp > CMakeFiles/myrpc.dir/zookeeperutil.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp > CMakeFiles/myrpc.dir/zookeeperutil.cpp.i
 
 src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myrpc.dir/zookeeperutil.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp -o CMakeFiles/myrpc.dir/zookeeperutil.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/src/zookeeperutil.cpp -o CMakeFiles/myrpc.dir/zookeeperutil.cpp.s
 
 # Object files for target myrpc
 myrpc_OBJECTS = \
+"CMakeFiles/myrpc.dir/logger.cpp.o" \
 "CMakeFiles/myrpc.dir/rpcchannel.cpp.o" \
 "CMakeFiles/myrpc.dir/rpcconfig.cpp.o" \
 "CMakeFiles/myrpc.dir/rpccontroller.cpp.o" \
@@ -165,6 +180,7 @@ myrpc_OBJECTS = \
 # External object files for target myrpc
 myrpc_EXTERNAL_OBJECTS =
 
+../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/logger.cpp.o
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/rpcchannel.cpp.o
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/rpcconfig.cpp.o
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/rpccontroller.cpp.o
@@ -173,7 +189,7 @@ myrpc_EXTERNAL_OBJECTS =
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/zookeeperutil.cpp.o
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/build.make
 ../lib/libmyrpc.a: src/CMakeFiles/myrpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../lib/libmyrpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../lib/libmyrpc.a"
 	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/myrpc.dir/cmake_clean_target.cmake
 	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myrpc.dir/link.txt --verbose=$(VERBOSE)
 

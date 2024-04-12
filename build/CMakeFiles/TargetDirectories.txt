@@ -5,5 +5,5 @@
 /home/ymirth/study/cpp_code/linux_learning/Rpc/build/src/CMakeFiles/myrpc.dir
 /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/rebuild_cache.dir
 /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/edit_cache.dir
-/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/client.dir
-/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/serve.dir
+/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/myrpcclient.dir
+/home/ymirth/study/cpp_code/linux_learning/Rpc/build/example/CMakeFiles/myrpcservice.dir

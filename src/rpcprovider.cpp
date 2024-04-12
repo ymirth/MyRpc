@@ -1,11 +1,15 @@
+#include<memory>
+
 #include <google/protobuf/message.h>
-#include <muduo/base/Logging.h>
+#include <muduo/base/AsyncLogging.h>
 
 #include "rpcprovider.h"
 #include "rpcapplication.h"
 #include "zookeeperutil.h"
 
 #include "rpcheader.pb.h"
+#include "logger.h"
+
 
 void RpcProvider::run()
 {
@@ -43,7 +47,7 @@ void RpcProvider::run()
 
             zkCli.Create(method_path.c_str(), buf, strlen(buf), ZOO_EPHEMERAL);
 
-            LOG_INFO << "register service: " << service_name << " method: " << method_name << " at: " << method_path;
+            LOG_INFO("register service: %s method: %s at: %s", service_name.c_str(), method_name.c_str(), method_path.c_str());
         }
     }
     
@@ -105,7 +109,7 @@ static void parseRpcRequest(const std::string &rpcRequest,uint32_t& header_size,
     
     // 解析header_str
     if(!header.ParseFromString(header_str)){
-        LOG_ERROR << "parse header_str failed\n";
+        LOG_ERROR("parse header_str failed\n");
         return;
     }
 
@@ -114,13 +118,13 @@ static void parseRpcRequest(const std::string &rpcRequest,uint32_t& header_size,
     request_str = rpcRequest.substr(4 + header_size, request_size); 
 
     // 打印调试信息
-    std::cout << "============================================" << std::endl;
-    std::cout << "header_size: " << header_size << std::endl;
-    std::cout << "rpc_header_str: " << header_str << std::endl;
-    std::cout << "service_name: " << header.service_name() << std::endl;
-    std::cout << "method_name: " << header.method_name() << std::endl;
-    std::cout << "args_str: " << request_str << std::endl;
-    std::cout << "============================================" << std::endl;
+    // std::cout << "============================================" << std::endl;
+    // std::cout << "header_size: " << header_size << std::endl;
+    // std::cout << "rpc_header_str: " << header_str << std::endl;
+    // std::cout << "service_name: " << header.service_name() << std::endl;
+    // std::cout << "method_name: " << header.method_name() << std::endl;
+    // std::cout << "args_str: " << request_str << std::endl;
+    // std::cout << "============================================" << std::endl;
 
 }
 
@@ -149,13 +153,13 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr &conn,
     // 获取 rpc 服务注册表中的 service
     google::protobuf::Service* const service = getService(service_name);
     if(service == nullptr){
-        LOG_ERROR << "unkown service: " << service_name << "\n";
+        LOG_ERROR("unknown service: %s\n", service_name.c_str() );
         return;
     }
     // 获取 rpc 服务注册表中的 service 提供的 method descriptor
     const google::protobuf::MethodDescriptor* const method_desc = getMethodDescriptor(service_name, method_name);
     if(method_desc == nullptr){
-        LOG_ERROR << "unknown method: " << method_name << "\n";
+        LOG_ERROR("unknown method: %s\n", method_name.c_str());
         return;
     }
 
@@ -164,7 +168,7 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr &conn,
     google::protobuf::Message *request = service->GetRequestPrototype(method_desc).New();
     
     if(!request->ParseFromString(rpc_request_str)){
-        LOG_ERROR << "parse request message failed\n";
+        LOG_ERROR("parse request message failed\n");
         return;
     }
 
@@ -177,7 +181,8 @@ void RpcProvider::onMessage(const muduo::net::TcpConnectionPtr &conn,
                                                                                                  &RpcProvider::sendResponse,
                                                                                                  conn,
                                                                                                  response);
-    // 调用rpc方法
+    
+    // Service类callmethod通过method des找到Service重载的对应方法，并传递controller/request/response/done  
     service->CallMethod(method_desc, nullptr, request, response, done);   
 }
 
@@ -187,7 +192,7 @@ void RpcProvider::sendResponse(const muduo::net::TcpConnectionPtr &conn,
 {
     std::string send_str;
     if(!responseMessage->SerializeToString(&send_str)){
-        LOG_ERROR << "serialize response message failed\n";
+        LOG_ERROR("serialize response message failed\n");
     }else{
         conn->send(send_str);
     }

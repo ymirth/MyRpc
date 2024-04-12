@@ -1,0 +1,44 @@
+2024-04-12 13:35:28,939 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../conf/zoo.cfg
+2024-04-12 13:35:28,943 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2024-04-12 13:35:28,950 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2024-04-12 13:35:28,950 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2024-04-12 13:35:28,950 [myid:] - WARN  [main:QuorumPeerMain@116] - Either no config or no quorum defined in config, running  in standalone mode
+2024-04-12 13:35:28,960 [myid:] - INFO  [main:QuorumPeerConfig@136] - Reading configuration from: /home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../conf/zoo.cfg
+2024-04-12 13:35:28,964 [myid:] - INFO  [main:ZooKeeperServerMain@98] - Starting server
+2024-04-12 13:35:28,969 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 04:05 GMT
+2024-04-12 13:35:28,974 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=VM-4-13-centos
+2024-04-12 13:35:28,974 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_402
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Red Hat, Inc.
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.402.b06-1.el7_9.x86_64/jre
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../build/classes:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../build/lib/*.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/slf4j-log4j12-1.7.25.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/slf4j-api-1.7.25.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/netty-3.10.6.Final.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/log4j-1.2.17.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/jline-0.9.94.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../lib/audience-annotations-0.5.0.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../zookeeper-3.4.13.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../src/java/lib/*.jar:/home/ymirth/study/cpp_code/linux_learning/Rpc/download/zookeeper-3.4.13/bin/../conf:
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64/dyninst:/opt/rh/devtoolset-9/root/usr/lib/dyninst:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64/dyninst:/opt/rh/devtoolset-9/root/usr/lib/dyninst:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64/dyninst:/opt/rh/devtoolset-9/root/usr/lib/dyninst:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/usr/local/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2024-04-12 13:35:28,975 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=3.10.0-1160.71.1.el7.x86_64
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=root
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/root
+2024-04-12 13:35:28,976 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/ymirth/study/cpp_code/linux_learning/Rpc
+2024-04-12 13:35:28,982 [myid:] - INFO  [main:ZooKeeperServer@836] - tickTime set to 2000
+2024-04-12 13:35:28,982 [myid:] - INFO  [main:ZooKeeperServer@845] - minSessionTimeout set to -1
+2024-04-12 13:35:28,982 [myid:] - INFO  [main:ZooKeeperServer@854] - maxSessionTimeout set to -1
+2024-04-12 13:35:28,995 [myid:] - INFO  [main:ServerCnxnFactory@117] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2024-04-12 13:35:28,999 [myid:] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:2181
+2024-04-12 13:35:29,502 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:49994
+2024-04-12 13:35:29,505 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:49994; will be dropped if server is in r-o mode
+2024-04-12 13:35:29,506 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:49994
+2024-04-12 13:35:29,508 [myid:] - INFO  [SyncThread:0:FileTxnLog@213] - Creating new log file: log.b2
+2024-04-12 13:35:29,530 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x101f626af000000 with negotiated timeout 30000 for client /127.0.0.1:49994
+2024-04-12 13:35:29,540 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x101f626af000000 type:create cxid:0x6618c822 zxid:0xb3 txntype:-1 reqpath:n/a Error Path:/example.UserRpcService Error:KeeperErrorCode = NodeExists for /example.UserRpcService
+2024-04-12 13:35:29,545 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x101f626af000000 type:create cxid:0x6618c823 zxid:0xb4 txntype:-1 reqpath:n/a Error Path:/example.UserRpcService/Register Error:KeeperErrorCode = NodeExists for /example.UserRpcService/Register
+2024-04-12 13:35:29,548 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@653] - Got user-level KeeperException when processing sessionid:0x101f626af000000 type:create cxid:0x6618c824 zxid:0xb5 txntype:-1 reqpath:n/a Error Path:/example.UserRpcService/Login Error:KeeperErrorCode = NodeExists for /example.UserRpcService/Login
+2024-04-12 13:35:31,565 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@215] - Accepted socket connection from /127.0.0.1:50002
+2024-04-12 13:35:31,566 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@903] - Connection request from old client /127.0.0.1:50002; will be dropped if server is in r-o mode
+2024-04-12 13:35:31,566 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@949] - Client attempting to establish new session at /127.0.0.1:50002
+2024-04-12 13:35:31,569 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@694] - Established session 0x101f626af000001 with negotiated timeout 30000 for client /127.0.0.1:50002
+2024-04-12 13:35:31,595 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x101f626af000001, likely client has closed socket
+2024-04-12 13:35:31,596 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:50002 which had sessionid 0x101f626af000001
+2024-04-12 13:35:31,597 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@487] - Processed session termination for sessionid: 0x101f626af000001
+2024-04-12 13:35:31,680 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@376] - Unable to read additional data from client sessionid 0x101f626af000000, likely client has closed socket
+2024-04-12 13:35:31,680 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1056] - Closed socket connection for client /127.0.0.1:49994 which had sessionid 0x101f626af000000

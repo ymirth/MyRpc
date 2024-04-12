@@ -130,6 +130,30 @@ myrpc/fast:
 	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/build
 .PHONY : myrpc/fast
 
+logger.o: logger.cpp.o
+.PHONY : logger.o
+
+# target to build an object file
+logger.cpp.o:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cpp.o
+.PHONY : logger.cpp.o
+
+logger.i: logger.cpp.i
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cpp.i:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cpp.i
+.PHONY : logger.cpp.i
+
+logger.s: logger.cpp.s
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cpp.s:
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/myrpc.dir/build.make src/CMakeFiles/myrpc.dir/logger.cpp.s
+.PHONY : logger.cpp.s
+
 rpcchannel.o: rpcchannel.cpp.o
 .PHONY : rpcchannel.o
 
@@ -283,6 +307,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... myrpc"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... rpcchannel.o"
 	@echo "... rpcchannel.i"
 	@echo "... rpcchannel.s"

@@ -73,29 +73,29 @@ example/CMakeFiles/client.dir/client/rpcclient.cpp.o: example/CMakeFiles/client.
 example/CMakeFiles/client.dir/client/rpcclient.cpp.o: ../example/client/rpcclient.cpp
 example/CMakeFiles/client.dir/client/rpcclient.cpp.o: example/CMakeFiles/client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/client.dir/client/rpcclient.cpp.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/client.dir/client/rpcclient.cpp.o -MF CMakeFiles/client.dir/client/rpcclient.cpp.o.d -o CMakeFiles/client.dir/client/rpcclient.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/client.dir/client/rpcclient.cpp.o -MF CMakeFiles/client.dir/client/rpcclient.cpp.o.d -o CMakeFiles/client.dir/client/rpcclient.cpp.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp
 
 example/CMakeFiles/client.dir/client/rpcclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client/rpcclient.cpp.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp > CMakeFiles/client.dir/client/rpcclient.cpp.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp > CMakeFiles/client.dir/client/rpcclient.cpp.i
 
 example/CMakeFiles/client.dir/client/rpcclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/rpcclient.cpp.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp -o CMakeFiles/client.dir/client/rpcclient.cpp.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/client/rpcclient.cpp -o CMakeFiles/client.dir/client/rpcclient.cpp.s
 
 example/CMakeFiles/client.dir/protos/example.service.pb.cc.o: example/CMakeFiles/client.dir/flags.make
 example/CMakeFiles/client.dir/protos/example.service.pb.cc.o: ../example/protos/example.service.pb.cc
 example/CMakeFiles/client.dir/protos/example.service.pb.cc.o: example/CMakeFiles/client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ymirth/study/cpp_code/linux_learning/Rpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/CMakeFiles/client.dir/protos/example.service.pb.cc.o"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/client.dir/protos/example.service.pb.cc.o -MF CMakeFiles/client.dir/protos/example.service.pb.cc.o.d -o CMakeFiles/client.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/client.dir/protos/example.service.pb.cc.o -MF CMakeFiles/client.dir/protos/example.service.pb.cc.o.d -o CMakeFiles/client.dir/protos/example.service.pb.cc.o -c /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc
 
 example/CMakeFiles/client.dir/protos/example.service.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/protos/example.service.pb.cc.i"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc > CMakeFiles/client.dir/protos/example.service.pb.cc.i
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc > CMakeFiles/client.dir/protos/example.service.pb.cc.i
 
 example/CMakeFiles/client.dir/protos/example.service.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/protos/example.service.pb.cc.s"
-	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc -o CMakeFiles/client.dir/protos/example.service.pb.cc.s
+	cd /home/ymirth/study/cpp_code/linux_learning/Rpc/build/example && /opt/rh/devtoolset-9/root/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ymirth/study/cpp_code/linux_learning/Rpc/example/protos/example.service.pb.cc -o CMakeFiles/client.dir/protos/example.service.pb.cc.s
 
 # Object files for target client
 client_OBJECTS = \

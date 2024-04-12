@@ -9,7 +9,7 @@ public:
     bool Login(const std::string &name, const std::string pwd)
     {
         std::cout << "local service: Login" << std::endl;
-        std::cout << "name:" << name << "pwd" << std::endl;
+        std::cout << "name:" << name << "pwd: " << pwd << std::endl; 
         return pwd == "123";
     }
 

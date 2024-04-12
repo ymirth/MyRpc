@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../../lib/libmyrpc.a"
   "../../lib/libmyrpc.pdb"
+  "CMakeFiles/myrpc.dir/logger.cpp.o"
+  "CMakeFiles/myrpc.dir/logger.cpp.o.d"
   "CMakeFiles/myrpc.dir/rpcchannel.cpp.o"
   "CMakeFiles/myrpc.dir/rpcchannel.cpp.o.d"
   "CMakeFiles/myrpc.dir/rpcconfig.cpp.o"
